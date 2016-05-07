@@ -79,7 +79,7 @@
 		04336F2B1CDD976A00929D38 /* DrawerCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DrawerCell.xib; sourceTree = "<group>"; };
 		04336F2D1CDD976A00929D38 /* GuessView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuessView.swift; sourceTree = "<group>"; };
 		04336F2E1CDD976A00929D38 /* GuessView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GuessView.xib; sourceTree = "<group>"; };
-		04336F2F1CDD976A00929D38 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		04336F2F1CDD976A00929D38 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeViewController.swift; path = ../../HomeViewController.swift; sourceTree = "<group>"; };
 		04336F391CDD977100929D38 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -135,7 +135,6 @@
 				04336F1F1CDD976A00929D38 /* CyclePushVC */,
 				04336F211CDD976A00929D38 /* Discover */,
 				04336F231CDD976A00929D38 /* Home */,
-				04336F2F1CDD976A00929D38 /* HomeViewController.swift */,
 				04336F001CDD976100929D38 /* Main */,
 				04336F051CDD976100929D38 /* Message */,
 				04336F071CDD976100929D38 /* Other */,
@@ -288,6 +287,7 @@
 		04336F241CDD976A00929D38 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				04336F2F1CDD976A00929D38 /* HomeViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -696,6 +696,7 @@
 				04336EF91CDD96B100929D38 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04336EFA1CDD96B100929D38 /* Build configuration list for PBXNativeTarget "ShopCycleTests" */ = {
 			isa = XCConfigurationList;
@@ -704,6 +705,7 @@
 				04336EFC1CDD96B100929D38 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04336EFD1CDD96B100929D38 /* Build configuration list for PBXNativeTarget "ShopCycleUITests" */ = {
 			isa = XCConfigurationList;
@@ -712,6 +714,7 @@
 				04336EFF1CDD96B100929D38 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
