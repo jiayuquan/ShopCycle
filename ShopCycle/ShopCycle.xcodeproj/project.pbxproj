@@ -31,6 +31,7 @@
 		04336F371CDD976A00929D38 /* GuessView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04336F2E1CDD976A00929D38 /* GuessView.xib */; };
 		04336F381CDD976A00929D38 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04336F2F1CDD976A00929D38 /* HomeViewController.swift */; };
 		04336F3A1CDD977100929D38 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04336F391CDD977100929D38 /* AppDelegate.swift */; };
+		048E0D8E1CDD9A6F00AFB1DB /* shop.gif in Resources */ = {isa = PBXBuildFile; fileRef = 048E0D8D1CDD9A6F00AFB1DB /* shop.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +82,7 @@
 		04336F2E1CDD976A00929D38 /* GuessView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GuessView.xib; sourceTree = "<group>"; };
 		04336F2F1CDD976A00929D38 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeViewController.swift; path = ../../HomeViewController.swift; sourceTree = "<group>"; };
 		04336F391CDD977100929D38 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		048E0D8D1CDD9A6F00AFB1DB /* shop.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = shop.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +133,7 @@
 		04336ED11CDD96B100929D38 /* ShopCycle */ = {
 			isa = PBXGroup;
 			children = (
+				048E0D8D1CDD9A6F00AFB1DB /* shop.gif */,
 				04336F391CDD977100929D38 /* AppDelegate.swift */,
 				04336F1F1CDD976A00929D38 /* CyclePushVC */,
 				04336F211CDD976A00929D38 /* Discover */,
@@ -438,6 +441,7 @@
 				04336F171CDD976100929D38 /* DrawerCellModel.plist in Resources */,
 				04336F1C1CDD976100929D38 /* PurchaseBottomView.xib in Resources */,
 				04336F351CDD976A00929D38 /* DrawerCell.xib in Resources */,
+				048E0D8E1CDD9A6F00AFB1DB /* shop.gif in Resources */,
 				04336EDA1CDD96B100929D38 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
